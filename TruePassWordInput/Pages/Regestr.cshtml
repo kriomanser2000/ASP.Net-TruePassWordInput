@@ -1,0 +1,32 @@
+﻿@page
+@model TruePassWordInput.Pages.RegestrModel
+@{
+}
+
+<div>
+    <form method="post">
+        <div>
+            <label>Логін: </label>
+            <input type="text" name="login" required />
+        </div>
+        <div>
+            <label>Пароль: </label>
+            <input type="password" name="password" required />
+        </div>
+        <div>
+            <label>Підтвердіть пароль: </label>
+            <input type="password" name="confirmPassword" required />
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="email" name="email" required />
+        </div>
+        <div>
+            <label>Номер телефону: </label>
+            <input type="tel" name="phoneNumber" required />
+        </div>
+        <div>
+            <button type="submit">Зареєструватися</button>
+        </div>
+    </form>
+</div>
